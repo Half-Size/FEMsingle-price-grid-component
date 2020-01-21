@@ -10,7 +10,7 @@ body {
 }
 
 .container{
-    margin: 10%;
+    margin: 10x;
 }
 
 .top p{
@@ -77,11 +77,18 @@ h2 {
     background-color: hsl(179, 59%, 54%);
 }
 
-/* .why p {
-    width: 70%;
-} */
+@media(min-width: 450px){
 
-@media(min-width: 700px){
+    .container{
+        margin: 15%;
+    }
+}
+
+@media(min-width: 800px){
+
+    .container{
+        margin: 5% 25% 5% 25%;
+    }
 
     .secondRow{
         display: flex;
